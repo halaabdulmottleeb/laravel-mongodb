@@ -1,6 +1,5 @@
-## Vending Machine
+## Authentcaion Apis (Register and login) using laravel, mongoDB and Passport
 
-Authentcaion Apis (Register and login) using laravel, mongoDB and Passport
 
 ## SETUP 
 you need php => 8.2
