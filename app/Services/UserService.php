@@ -34,6 +34,7 @@ class UserService{
     }
 
     public function register($data){
+        $data['password'] = Hash::make($data['password']);
         $this->userRepository->create($data);
     }
 }
