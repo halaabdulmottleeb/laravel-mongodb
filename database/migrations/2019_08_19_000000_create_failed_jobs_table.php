@@ -11,6 +11,8 @@ class CreateFailedJobsTable extends Migration
      *
      * @return void
      */
+    protected $connection = 'mongodb';
+
     public function up()
     {
         Schema::create('failed_jobs', function (Blueprint $table) {

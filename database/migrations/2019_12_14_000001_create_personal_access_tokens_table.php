@@ -11,6 +11,8 @@ class CreatePersonalAccessTokensTable extends Migration
      *
      * @return void
      */
+    protected $connection = 'mongodb';
+
     public function up()
     {
         Schema::create('personal_access_tokens', function (Blueprint $table) {
